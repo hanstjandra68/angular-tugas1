@@ -1,4 +1,12 @@
 <hello name="{{ name }}"></hello>
 <p>
-  Start editing to see some magic happen :)
+  Tugas 1
 </p>
+Angka: <input [(ngModel)]= a type="text"> <br> 
+<br>
+Dipangkat: <input [(ngModel)]= b type="text"> 
+<br>
+<button (click)="calculate()">Hitung</button>
+<p>Input : {{a}} dan {{b}}</p>
+<p>Hasil : {{hasil}}</p>
+<div [innerHTML]="theHtmlString"></div>
